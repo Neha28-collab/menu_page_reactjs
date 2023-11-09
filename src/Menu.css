@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+
+    margin: 0 auto;
+    background-color: #fff;
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.image {
+    background-image: url('../public/images/1.png');
+    background-size: cover;
+    background-position: left top;
+    background-color: #333;
+    width: 550px;
+    height: 100vh;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.menu-container {
+    flex: 1;
+    padding: 30px;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.dropdown {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.scrollable-list {
+    height: 300px; /* Set a fixed height for the scrollable container */
+    overflow: auto; /* Make the container scrollable when content overflows */
+  }
+
+.menu-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    flex-basis: calc(33.33% - 20px);
+    position: relative;
+}
+
+.menu-item span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 30px;
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.listCard {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.listCard li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* New styles for the order button */
+.order-button {
+    display: flex; /* Use flex display to center the button */
+    justify-content: center; /* Center the content horizontally */
+    margin-top: 10px;
+}
+
+#orderButton {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; /* Adjust the padding to center the content horizontally */
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 47%;
+    align-items: center;
+
+}
